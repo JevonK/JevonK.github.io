@@ -2,14 +2,14 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>Hello World | 张安杰</title>
+  <title>Hello World | blog</title>
   <meta name="keywords" content>
-  <meta name="description" content="Hello World | 张安杰">
+  <meta name="description" content="Hello World | blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
 <meta property="og:url" content="http://yoursite.com/about/index.html">
-<meta property="og:site_name" content="张安杰">
+<meta property="og:site_name" content="blog">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-10-11T10:15:43.780Z">
 <meta name="twitter:card" content="summary">
@@ -55,7 +55,7 @@
     <img class="avatar" src="/img/avatar.jpg" />
 </a>
 <div class="author">
-    <span>John Doe</span>
+    <span>月木石人</span>
 </div>
 
 <div class="icon">
@@ -346,15 +346,11 @@
 </article>
 
 
-<p>
-    <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
-</p>
-
 
 <div class="article_copyright">
     <p><span class="copy-title">文章标题:</span>Hello World</p>
     
-    <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="John Doe">John Doe</a></p>
+    <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="月木石人">月木石人</a></p>
     <p><span class="copy-title">发布时间:</span>2019-10-08, 14:36:27</p>
     <p><span class="copy-title">最后更新:</span>2019-10-08, 14:36:27</p>
     <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/10/08/hello-world/" title="Hello World">http://yoursite.com/2019/10/08/hello-world/</a>
@@ -391,24 +387,6 @@
 </div>
 <div class="acParent"></div>
 
-<div class="hide_box" onclick="dashangToggle()"></div>
-<div class="shang_box">
-    <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()">×</a>
-    <div class="shang_tit">
-        <p>喜欢就点赞,疼爱就打赏</p>
-    </div>
-    <div class="shang_payimg">
-        <div class="pay_img">
-            <img src="/img/alipay.jpg" class="alipay" title="扫码支持">
-            <img src="/img/weixin.jpg" class="weixin" title="扫码支持">
-        </div>
-    </div>
-    <div class="shang_payselect">
-        <span><label><input type="radio" name="pay" checked value="alipay">支付宝</label></span><span><label><input type="radio" name="pay" value="weixin">微信</label></span>
-    </div>
-</div>
-
-
 </body>
 <script src="/js/jquery.pjax.js?v=1.0.1" ></script>
 
@@ -430,14 +408,6 @@
         
 
         /*渲染打赏样式*/
-        
-        $("input[name=pay]").on("click", function () {
-            if($("input[name=pay]:checked").val()=="weixin"){
-                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
-            } else {
-                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
-            }
-        })
         
 
         /*高亮代码块行号*/
@@ -469,11 +439,6 @@
     }
 
     /*打赏页面隐藏与展示*/
-    
-    function dashangToggle() {
-        $(".shang_box").fadeToggle();
-        $(".hide_box").fadeToggle();
-    }
     
 
 </script>
