@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>Hello Hexo</title>
+      <title>markdown 常用语法总结</title>
       <link href="/2019/10/14/Hello-Hexo/"/>
       <url>/2019/10/14/Hello-Hexo/</url>
       
-        <content type="html"><![CDATA[<h3 id="这是一个测试文件"><a href="#这是一个测试文件" class="headerlink" title="这是一个测试文件"></a>这是一个测试文件</h3><h2 id="是的的啊时间的卡结婚的"><a href="#是的的啊时间的卡结婚的" class="headerlink" title="是的的啊时间的卡结婚的!"></a>是的的啊时间的卡结婚的!</h2>]]></content>
+        <content type="html"><![CDATA[<p>对于markdown的我还是秉承它的宗旨：简洁易读</p><h2 id="文本处理"><a href="#文本处理" class="headerlink" title="文本处理"></a>文本处理</h2><h3 id="1、字体"><a href="#1、字体" class="headerlink" title="1、字体"></a>1、字体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">注：H1 与H2 是带下划线的</span><br><span class="line"># H1</span><br><span class="line">## H2</span><br><span class="line">### H3</span><br><span class="line">#### H4</span><br><span class="line">##### H5</span><br><span class="line">###### H6</span><br></pre></td></tr></table></figure><p>效果如下：</p><h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6><h3 id="2、加粗，倾斜，删除线"><a href="#2、加粗，倾斜，删除线" class="headerlink" title="2、加粗，倾斜，删除线"></a>2、加粗，倾斜，删除线</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*斜体*          _斜体_</span><br><span class="line">**粗体**        __粗体__</span><br><span class="line">***粗斜体***    ___粗斜体___</span><br><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure><p>效果如下：</p><ul><li><p><em>斜体</em>          <em>斜体</em></p></li><li><p><strong>粗体</strong>        <strong>粗体</strong></p></li><li><p><strong><em>粗斜体</em></strong>    <strong><em>粗斜体</em></strong></p></li><li><p><del>删除线</del></p><p>完善中…..</p></li></ul>]]></content>
       
       
       <categories>
           
-          <category> test </category>
+          <category> 其他 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> test </tag>
+            <tag> markdown 语法 </tag>
             
         </tags>
       
