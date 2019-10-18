@@ -165,7 +165,7 @@
     <div><a class="about  hasFriend  site_url"  href="/about">关于</a><a style="width: 50%"  class="friends">友链</a></div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="2">
-<input type="hidden" id="yelog_site_word_count" value="833">
+<input type="hidden" id="yelog_site_word_count" value="789">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -212,20 +212,20 @@
     
     <nav id="title-list-nav">
         
-        <a  class="其他 "
-           href="/2019/10/14/Hello-Hexo/"
-           data-tag="markdown 语法"
-           data-author="" >
-            <span class="post-title" title="markdown 常用语法总结">markdown 常用语法总结</span>
-            <span class="post-date" title="2019-10-14 11:29:00">2019/10/14</span>
-        </a>
-        
         <a  class=""
            href="/2019/10/08/hello-world/"
            data-tag=""
            data-author="" >
             <span class="post-title" title="Hello World">Hello World</span>
             <span class="post-date" title="2019-10-08 14:36:27">2019/10/08</span>
+        </a>
+        
+        <a  class="其他 "
+           href="/2019/10/14/Hello-Hexo/"
+           data-tag="markdown 语法"
+           data-author="" >
+            <span class="post-title" title="markdown 常用语法总结">markdown 常用语法总结</span>
+            <span class="post-date" title="2019-10-14 11:29:00">2019/10/14</span>
         </a>
         
     </nav>
@@ -264,12 +264,12 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-10-18 15:19:04'>2019-10-14 11:29</time>
+        创建时间:<time class="date" title='更新时间: 2019-10-18 15:26:33'>2019-10-14 11:29</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:760</span>
+        <span>字数:716</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -404,24 +404,10 @@
 <td align="center">1部</td>
 </tr>
 </tbody></table>
-<h2 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">注：使用流程图前先在项目根目录执行：npm install --save hexo-filter-flowchart</span><br><span class="line">&lt;div id=&quot;flowchart-0&quot; class=&quot;flow-chart&quot;&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">注：使用流程图前先在项目根目录执行：npm install --save hexo-filter-flowchart</span><br><span class="line">    亲自行把 ··· 装换成 ```</span><br><span class="line">···flow</span><br><span class="line">st=&gt;start: Start|past:&gt;http://www.google.com[blank]</span><br><span class="line">e=&gt;end: End:&gt;http://www.google.com</span><br><span class="line">op1=&gt;operation: My Operation|past</span><br><span class="line">op2=&gt;operation: Stuff|current</span><br><span class="line">sub1=&gt;subroutine: My Subroutine|invalid</span><br><span class="line">cond=&gt;condition: Yes</span><br><span class="line">or No?|approved:&gt;http://www.google.com</span><br><span class="line">c2=&gt;condition: Good idea|rejected</span><br><span class="line">io=&gt;inputoutput: catch something...|request</span><br><span class="line"></span><br><span class="line">st-&gt;op1(right)-&gt;cond</span><br><span class="line">cond(yes, right)-&gt;c2</span><br><span class="line">cond(no)-&gt;sub1(left)-&gt;op1</span><br><span class="line">c2(yes)-&gt;io-&gt;e</span><br><span class="line">c2(no)-&gt;op2-&gt;e</span><br><span class="line">···</span><br></pre></td></tr></table></figure>
 
 <p>效果如下：</p>
-<div id="flowchart-1" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">    st=>start: Start|past:>http://www.google.com[blank]
-    e=>end: End:>http://www.google.com
-    op1=>operation: My Operation|past
-    op2=>operation: Stuff|current
-    sub1=>subroutine: My Subroutine|invalid
-    cond=>condition: Yes
-    or No?|approved:>http://www.google.com
-    c2=>condition: Good idea|rejected
-    io=>inputoutput: catch something...|request
-
-    st->op1(right)->cond
-    cond(yes, right)->c2
-    cond(no)->sub1(left)->op1
-    c2(yes)->io->e
-    c2(no)->op2->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: Start|past:>http://www.google.com[blank]
+<div id="flowchart-0" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start|past:>http://www.google.com[blank]
 e=>end: End:>http://www.google.com
 op1=>operation: My Operation|past
 op2=>operation: Stuff|current
@@ -435,7 +421,7 @@ st->op1(right)->cond
 cond(yes, right)->c2
 cond(no)->sub1(left)->op1
 c2(yes)->io->e
-c2(no)->op2->e</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script>
+c2(no)->op2->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jevonk@qq.com </span>
     </div>
@@ -449,10 +435,10 @@ c2(no)->op2->e</textarea><textarea id="flowchart-1-options" style="display: none
 
 <div class="article_copyright">
     <p><span class="copy-title">文章标题:</span>markdown 常用语法总结</p>
-    <p><span class="copy-title">文章字数:</span><span class="post-count">760</span></p>
+    <p><span class="copy-title">文章字数:</span><span class="post-count">716</span></p>
     <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="月木石人">月木石人</a></p>
     <p><span class="copy-title">发布时间:</span>2019-10-14, 11:29:00</p>
-    <p><span class="copy-title">最后更新:</span>2019-10-18, 15:19:04</p>
+    <p><span class="copy-title">最后更新:</span>2019-10-18, 15:26:33</p>
     <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/10/14/Hello-Hexo/" title="markdown 常用语法总结">https://zhanganjie.com/2019/10/14/Hello-Hexo/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
