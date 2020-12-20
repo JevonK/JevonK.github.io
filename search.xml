@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>c/c++初识</title>
+      <link href="2020/12/05/c_xuexizhilu/"/>
+      <url>2020/12/05/c_xuexizhilu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><h3 id="这是一个文章的开始。"><a href="#这是一个文章的开始。" class="headerlink" title="这是一个文章的开始。"></a>这是一个文章的开始。</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> C/C++ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C/C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>markdown 常用语法总结</title>
       <link href="2019/10/14/Hello-Hexo/"/>
       <url>2019/10/14/Hello-Hexo/</url>
@@ -20,7 +45,7 @@
       
         <tags>
             
-            <tag> markdown 语法 </tag>
+            <tag> markdown </tag>
             
         </tags>
       
